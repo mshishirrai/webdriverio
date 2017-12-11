@@ -60,7 +60,7 @@ myChromeBrowser
 myFirefoxBrowser
     .waitForExist('.messages', 5000)
     .getText('.messages').then(function(messages) {
-        assert.equal(messages, 'Hi, I am Chrome');
+        assert.equal(messages, 'Hi, I am Firefox');
     });
 ```
 
